@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo-container img {
+  width: 50px;
+}
+
+nav .nav-links-container ul {
+  list-style: none;
+  display: flex;
+}
+
+nav .nav-links-container li {
+  margin-right: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #0077B5;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section#about-me {
+  display: flex;
+  align-items: center;
+}
+
+section#about-me .about-me-img-container img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-right: 1em;
+}
+
+section#skills h2 {
+  margin-bottom: 1em;
+}
+
+section#skills .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#skills .skill {
+  flex: 1;
+  text-align: center;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+section#skills .skill img {
+  width: 50px;
+  margin-bottom: 0.5em;
+}
+
+section#projects h2 {
+margin-bottom: 1em;
+}
+
+section#projects .projects-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+section#projects .project {
+flex: 1;
+margin-right: 1em;
+margin-bottom: 1em;
+position: relative;
+cursor: pointer;
+}
+
+section#projects .project img {
+width: 100%;
+}
+
+section#projects .project .project-info {
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.8);
+padding: 1em;
+width: 100%;
+}
+
+section#projects .project .project-info h3 {
+margin-bottom: 0.5em;
+}
+
+section#projects .project .project-info a {
+color: #0077B5;
+text-decoration: none;
+}
+
+section#contact {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+section#contact form {
+flex: 1;
+margin-right: 1em;
+}
+
+section#contact form label {
+display: block;
+margin-bottom: 0.5em;
+}
+
+section#contact form input[type="text"],
+section#contact form input[type="email"],
+section#contact form textarea {
+width: 100%;
+padding: 0.5em;
+border-radius: 5px;
+border: none;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+section#contact form input[type="submit"] {
+background-color: #0077B5;
+color: #fff;
+padding: 0.5em 1em;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+section#contact form input[type="submit"]:hover {
+background-color: #004a80;
+}
+
+section#contact .social-container {
+margin-left: 2em;
+}
+
+section#contact .social-container h3 {
+margin-bottom: 1em;
+}
+
+section#contact .social-container .social-links {
+list-style: none;
+display: flex;
+}
+
+section#contact .social-container .social-links li {
+margin-right: 0.5em;
+}
+
+section#contact .social-container .social-links a {
+font-size: 2em;
+color: #333;
+transition: all 0.2s;
+}
+
+section#contact .social-container .social-links a:hover {
+color: #0077B5;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 1em;
+text-align: center;
+}

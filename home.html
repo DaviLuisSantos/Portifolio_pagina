@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfólio - Davi Luis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="logo.png" alt="logo">
+        </div>
+        <div class="nav-links-container">
+          <ul>
+            <li><a href="#about-me">Sobre mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="about-me">
+<div class="about-me-container">
+<div class="about-me-img-container">
+<img src="./src/img/fotoPerfil.png" alt="foto de perfil">
+</div>
+<div class="about-me-info-container">
+<h2>Sobre mim</h2>
+<p>Sou um estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e sempre em busca de novos desafios e oportunidades para crescer e aprender. Possuo conhecimentos sólidos em C#, Java e JavaScript, além de ter experiência com banco de dados SQL Server e PostgreSQL. Sou fluente em Programação Orientada a Objetos e sempre busco seguir boas práticas de programação. Além disso, tenho habilidades em resolução de problemas, trabalho em equipe e sempre busco manter-me atualizado com as últimas tendências e tecnologias do mercado. Estou ansioso para aplicar meus conhecimentos e habilidades em um ambiente de trabalho desafiador e colaborativo.</p>
+</div>
+</div>
+</section>
+<section id="skills">
+<h2>Habilidades</h2>
+<div class="skills-container">
+<div class="skill">
+<img src="./src/img/csharp.png" alt="ícone de C#">
+<h3>C#</h3>
+</div>
+<div class="skill">
+<img src="./src/img/java.png" alt="ícone de Java">
+<h3>Java</h3>
+</div>
+<div class="skill">
+<img src="./src/img/javascript.jpg" alt="ícone de JavaScript">
+<h3>JavaScript</h3>
+</div>
+</div>
+</section>
+<section id="projects">
+<h2>Projetos</h2>
+<div class="projects-container">
+<div class="project">
+	<img src="project1.png" alt="screenshot do projeto 1">
+            <div class="project-info">
+              <h3>Projeto 1</h3>
+              <p>Descrição do projeto 1 e tecnologias utilizadas</p>
+              <a href="#" class="project-link" onclick="openModal('project1-modal')">Ver mais</a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project2.png" alt="screenshot do projeto 2">
+            <div class="project-info">
+              <h3>Projeto 2</h3>
+              <p>Descrição do projeto 2 e tecnologias utilizadas</p>
+              <a href="#" class="project-link" onclick="openModal('project2-modal')">Ver mais</a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project3.png" alt="screenshot do projeto 3">
+            <div class="project-info">
+              <h3>Projeto 3</h3>
+              <p>Descrição do projeto 3 e tecnologias utilizadas</p>
+              <a href="#" class="project-link" onclick="openModal('project3-modal')">Ver mais</a>
+            </div>
+          </div>
+        </div>
+        <div id="project1-modal" class="modal">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal('project1-modal')">&times;</span>
+            <h3>Projeto 1</h3>
+            <p>Mais informações detalhadas sobre o projeto 1</p>
+            <a href="#">Ver projeto</a>
+          </div>
+        </div>
+        <div id="project2-modal" class="modal">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal('project2-modal')">&times;</span>
+            <h3>Projeto 2</h3>
+            <p>Mais informações detalhadas sobre o projeto 2</p>
+            <a href="#">Ver projeto</a>
+          </div>
+        </div>
+        <div id="project3-modal" class="modal">
+          <div class="modal-content">
+            <span class="close-button" onclick="closeModal('project3-modal')">&times;</span>
+            <h3>Projeto 3</h3>
+            <p>Mais informações detalhadas sobre o projeto 3</p>
+            <a href="#">Ver projeto</a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contato</h2>
+        <form>
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message"></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+        <div class="social-container">
+          <h3>Me encontre nas redes sociais</h3>
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; Seu nome</p>
+    </footer>
+  </body>
+</html>
