@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -58,16 +59,16 @@
 	<img src="project1.png" alt="screenshot do projeto 1">
             <div class="project-info">
               <h3>Gerador de Números de Loteria</h3>
-              <p>Descrição do projeto 1 e tecnologias utilizadas</p>
-              <a href="#" class="project-link" onclick="openModal('project1-modal')">Ver mais</a>
+              <p>Um programa simples, onde o usuario consegue escolher uma dentre as 5 grandes loterias brasileiras. Podendo gerar quantos jogos desejar.</p>
+              <button onclick="myFunction('myBtn1')" id="myBtn1">Read more</button>
             </div>
           </div>
           <div class="project">
-            <img src="project2.png" alt="screenshot do projeto 2">
+            <img src="./src/img/projeto2.png" alt="screenshot do projeto 2">
             <div class="project-info">
-              <h3>Projeto 2</h3>
-              <p>Descrição do projeto 2 e tecnologias utilizadas</p>
-              <a href="#" class="project-link" onclick="openModal('project2-modal')">Ver mais</a>
+              <h3>Jogo de Advinhação</h3>
+              <p>Um jogo em onde o jogar digita o intervalo máximo de números a ser gerado e depois tenta advinhar qual foi gerado,<span id="dots2">...</span><span id="more2"> o sistema informa se o número digitado por ele é maior ou menor que o número gerado. Ao acertar é mostrado pra ele quantas tentativas foram precisas </span></p>
+              <a onclick="myFunction('dots2','more2','myBtn2')" id="myBtn2">Ver mais</a>
             </div>
           </div>
           <div class="project">
@@ -118,15 +119,15 @@
         <div class="social-container">
           <h3>Me encontre nas redes sociais</h3>
           <ul class="social-links">
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/davi-luis-santos-costa-b96725218/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
           </ul>
         </div>
       </section>
     </main>
     <footer>
-      <p>Copyright &copy; Seu nome</p>
+      <p>Copyright &copy; Davi Luis</p>
     </footer>
   </body>
 </html>
