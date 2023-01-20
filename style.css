@@ -13,30 +13,44 @@ header {
   background-color: #333;
   color: #fff;
   padding: 1em;
+  height: 5em;
+  width: 100%;
+  align-content: center;
+
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 nav .logo-container img {
   width: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+
 }
 
 nav .nav-links-container ul {
   list-style: none;
   display: flex;
+  margin-block: -2.5em;
+  align-content: flex-end;
+  align-items: flex-end;
 }
 
 nav .nav-links-container li {
-  margin-right: 1em;
+  margin-right: 1.5em;
+
+
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
+      margin-bottom: 20em;
+    border-bottom: 5em;
 }
 
 nav a:hover {
@@ -197,6 +211,107 @@ color: #fff;
 padding: 1em;
 text-align: center;
 }
+
+#jogo-advinhacao-modal .modal-body img {
+  max-width: 100%;
+  max-height:500px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#jogo-advinhacao-modal .modal-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+#jogo-advinhacao-modal .modal-body {
+  padding: 2rem;
+}
+
+#jogo-advinhacao-modal .modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#jogo-advinhacao-modal .modal-body p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#jogo-advinhacao-modal .modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#gerador-numero-modal .modal-body img {
+  max-width: 100%;
+  max-height:500px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#gerador-numero-modal .modal-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+#gerador-numero-modal .modal-body {
+  padding: 2rem;
+}
+
+#gerador-numero-modal .modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#gerador-numero-modal .modal-body p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#gerador-numero-modal .modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+------------------
+#construcao-modal .modal-body img {
+  max-width: 100%;
+  max-height:500px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#construcao-modal .modal-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+#construcao-modal .modal-body {
+  padding: 2rem;
+}
+
+#construcao-modal .modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#construcao-modal .modal-body p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#construcao-modal .modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 
 
